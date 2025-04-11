@@ -20,9 +20,9 @@ for i in price_str:
         s += i
 current_price = float(s)
 if current_price <= TARGET:
-    my_email = "apashyamkirikiri849@gmail.com"
-    password = "bqsiwpqrnninvoww"
-    recipient_email = "alpinekamande@gmail.com"
+    my_email = "sender@gmail.com"
+    password = "bqsiwpvoww"
+    recipient_email = "recipent@gmail.com"
     try:
         connection = smtplib.SMTP("smtp.gmail.com",587)# port is must
         connection.starttls()
